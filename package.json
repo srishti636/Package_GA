@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "publishConfig": {
-    "registry" : "https://npm.pkg.github.com/@srishti636/"
+    "registry" : "https://npm.pkg.github.com/@srishti636/:_authToken=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"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
