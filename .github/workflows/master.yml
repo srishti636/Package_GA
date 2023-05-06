@@ -3,7 +3,7 @@ name: Publish to Github Package
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   publish:
