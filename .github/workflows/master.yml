@@ -12,7 +12,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 12
-          registery-url: https://npm.pkg.github.com/
+          registery-url: https://npm.pkg.github.com/:_authToken=${TOKEN}
           scope: '@srishti636'
       - run: npm install
       - run: npm publish
