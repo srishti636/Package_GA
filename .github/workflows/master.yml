@@ -30,7 +30,7 @@ jobs:
           scope: "@srishti636"
 
       - run: |
-          npm adduser --registry=https://npm.pkg.github.com/ --always-auth
+          npm adduser --registry=https://npm.pkg.github.com/@srishti636 --always-auth
           echo "@srishti636:registry=https://npm.pkg.github.com" >> .npmrc
           echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" >> .npmrc
       - run: npm publish
