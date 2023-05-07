@@ -7,8 +7,8 @@
     "registry" : "https://npm.pkg.github.com/@srishti636/"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-    "build": "npm run build"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run build",
   },
   
   "keywords": [],
