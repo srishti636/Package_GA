@@ -19,8 +19,6 @@ jobs:
       run: npm install
     - name: Clean Cache
       run: npm cache clean --force
-    - name: Login npm
-      run: npm adduser --registry=https://npm.pkg.github.com/ --scope=@srishti636
     - name: Install npm latest
       run: npm install -g npm@latest
     - name: Publish package
