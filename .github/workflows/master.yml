@@ -20,7 +20,7 @@ jobs:
     - name: Clean Cache
       run: npm cache clean --force
     - name: Login npm
-      run: npm login --registry=https://npm.pkg.github.com/ --scope=@srishti636
+      run: npm adduser --registry=https://npm.pkg.github.com/ --scope=@srishti636
 
     - name: Add User
       run: npm adduser
