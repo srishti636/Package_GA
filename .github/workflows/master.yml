@@ -23,9 +23,6 @@ jobs:
       run: npm adduser --registry=https://npm.pkg.github.com/ --scope=@srishti636
     - name: Install npm latest
       run: npm install -g npm@latest
-
-    - name: Add User
-      run: npm adduser
     - name: Publish package
       run: npm publish --access public
       env:
