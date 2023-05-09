@@ -18,11 +18,15 @@ jobs:
         node-version: '16.x'
     - name: Install dependencies
       run: npm install
+    - name: Install
+      run: npm login --registry=https://npm.pkg.github.com/ --scope=@srishti636
+
     - name: Clean Cache
+    
       run: npm cache clean --force
     - name: Install npm latest
       run: npm install -g npm@latest
     - name: Publish package
-      run: npm publish --access public
+      run: npm publish 
       env:
         NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
