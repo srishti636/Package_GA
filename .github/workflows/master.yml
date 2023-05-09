@@ -17,6 +17,8 @@ jobs:
         node-version: '16.x'
     - name: Install dependencies
       run: npm install
+    - name: Clean Cache
+      run: npm cache clean --force
     - name: Add User
       run: npm adduser
     - name: Publish package
